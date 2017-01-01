@@ -1,6 +1,6 @@
 # vis-build 
 
-Build `c` programs in the [vis editor](https://github.com/martanne/vis).
+A Lua plugin for building `c` programs in the [vis editor](https://github.com/martanne/vis).
 
 # configure
 1. `ln -s build.lua .config/vis/plugins`
