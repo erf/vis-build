@@ -22,9 +22,9 @@ function on_win_open(win)
 		local i = string.find(f, '%.')
 		if i == nil then error() return end
 		local ext = string.sub(f, i)
-		local out = string.sub(f, 0, i - 1)
 		local method = lang[ext]
 		if method == nil then error() return end
+		local out = string.sub(f, 0, i - 1)
 		vis:info(string.format('building %s', out))
 		method(f, out)
 	end
