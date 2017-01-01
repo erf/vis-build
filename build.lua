@@ -42,7 +42,6 @@ function on_win_open(win)
 		local out = string.sub(f, 0, i - 1)
 		vis:info(string.format('building \'%s\'', out))
 		method(f, out)
-		vis:info(string.format('building \'%s\' done', out))
 	end
 	
 	vis:map(vis.modes.NORMAL, '<C-b>', build)
