@@ -17,6 +17,6 @@ Supported languages:
 Press `<Ctrl-b>` or use the `:build` command to build the current file.
 
 # TODO
-- stderr > vis:message
-- RUN command. stdout > vis:message
-- support more languages
+- stderr, stdout > vis:message
+- `run` command
+- more languages
