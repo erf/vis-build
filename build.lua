@@ -25,11 +25,11 @@ function on_win_open(win)
 	end
 	
 	local lang = {}
-	lang['.c'] = build_c
+	lang['.c']     = build_c
 	lang['.swift'] = build_swift
-	lang['.rs'] = build_rust
-	lang['.cr'] = build_crystal
-	lang['.hs'] = build_haskell
+	lang['.rs']    = build_rust
+	lang['.cr']    = build_crystal
+	lang['.hs']    = build_haskell
 
 	function build()
 		local f = win.file.name
